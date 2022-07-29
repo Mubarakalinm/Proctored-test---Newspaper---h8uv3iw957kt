@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 
-const Weathercard = ({tempInfo}) => {
+const Weatherinfo = ({tempInfo}) => {
     const [weatherState, setWeatherState] = React.useState("");
     const{
         temp,
@@ -58,4 +58,4 @@ const Weathercard = ({tempInfo}) => {
   )
 }
 
-export default Weathercard
+export default Weatherinfo
