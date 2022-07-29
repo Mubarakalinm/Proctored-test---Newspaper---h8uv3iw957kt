@@ -1,5 +1,5 @@
 import React, {Component, useState,useEffect} from "react";
-import Weathercard from "./Weathercard";
+import Weatherinfo from "./Weatherinfo";
 import '../styles/App.css';
 
 const App = () => {
@@ -49,7 +49,7 @@ const App = () => {
         </div>
     </div>
    
-      <Weathercard tempInfo={tempInfo}/>
+      <Weatherinfo tempInfo={tempInfo}/>
     </>
   )
 }
